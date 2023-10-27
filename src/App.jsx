@@ -17,9 +17,11 @@ function App() {
   
   return (
     <>
-      {itens.map(function (item, index) {
-        return <Card item={item} key={`card_${index}`}/>
-      })}
+     <div className="card-list">
+        {itens.map(function (item, index) {
+            return <Card item={item} key={`card_${index}`}/>
+        })}
+     </div>
     </>
   )
 }
