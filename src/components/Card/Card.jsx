@@ -2,7 +2,7 @@ import "./Card.css"
 import  Tag  from '../Tag/Tag'
 export default function Card(props) {
     const item = props.item
-    // const tags = item.tag || []
+    // const tags = item.tag || [] 
     const tags = [
         `Status: ${item.status}`, 
         `Species: ${item.species}`, 
