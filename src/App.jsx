@@ -13,7 +13,7 @@ function App() {
     setItens(results)
   }
   useEffect(function(){ 
-    carregarDadosApi();
+     carregarDadosApi();
   }, [])
   
   return (
