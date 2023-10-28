@@ -16,7 +16,7 @@ export default function Card(props) {
                     return <Tag text={tag} key={`card_char_${index}`}/>
                 })}
             </div>
-            <img src={item.image} alt="Rick Sanchez" />  
+            <img src={item.image} />  
         </div>  
     
 }
